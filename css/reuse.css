@@ -1,0 +1,226 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'MiSans', sans-serif;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+	/* 防止页面级别的滚动条出现 */
+}
+
+.display {
+	width: 455px;
+	height: 920px;
+	border: 2.5px solid #000;
+	/* 模拟手机边框 */
+	border-radius: 25px;
+	/* 模拟手机圆角 */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	/* 添加阴影效果 */
+	overflow: hidden;
+	/* overflow-y: scroll; */
+	/* 防止内容从容器溢出，但滚动条会在.phone-content内部处理 */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* 居中对齐 */
+	background-image: url('../background/index.png');
+}
+
+.module {
+	width: 450px;
+	height: 730px;
+	padding: 0px 10px;
+	/* 添加内边距以提供内容空间 */
+	box-sizing: border-box;
+	/* 确保内边距和边框不会增加容器的宽度 */
+	overflow: overlay;
+	overflow-y: auto;
+	/* 添加垂直滚动条 */
+	overflow-x: hidden;
+}
+
+.header {
+	width: 450px;
+	height: 60px;
+	display: flex;
+	font-size: 20px;
+	margin-top: auto;
+	position: relative;
+	line-height: 60px;
+}
+
+.name {
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.message .message_svg {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 330px;
+	top: 17.5px;
+}
+
+.add .add_svg {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 385px;
+	top: 17.5px;
+}
+
+.room {
+	width: 450px;
+	height: 70px;
+	display: flex;
+	font-size: 25px;
+}
+
+.room div {
+	margin-left: 30px;
+	margin-right: -10px;
+	height: 70px;
+	width: 50px;
+	margin-top: auto;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+.room a {
+	color: #999;
+}
+
+.room .more {
+	width: 40px;
+	height: 25px;
+	background-color: #aaa;
+	opacity: 0.5;
+	/* 半透明背景 */
+	z-index: -1;
+	border-radius: 25px;
+	position: absolute;
+	left: 350px;
+	top: 82.5px;
+}
+
+.room .more img {
+	width: 20px;
+	height: 15px;
+	display: flex;
+	margin: 5px 10px;
+}
+
+.devicebox {
+	width: 430px;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.device {
+	width: 200px;
+	height: 100px;
+	background-color: #fff;
+	margin: 5px 5px 10px 10px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+}
+
+.title {
+	font-size: 15px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+.title2 {
+	font-size: 13px;
+	color: #888;
+}
+
+.jiantou {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
+
+.switch_bg {
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin: 10px 0px 0px 0px;
+	background-color: #eee;
+	border-radius: 15px;
+}
+
+.switch {
+	margin: 5px;
+}
+
+/* CSS 样式，用于定义开关图标的默认和激活状态颜色 */
+.switch path {
+	transition: fill 0.3s ease;
+	/* 添加过渡效果，使颜色变化更平滑 */
+}
+
+.switch_bg.active .switch path {
+	fill: skyblue;
+	/* 当 .switch_bg 有 .active 类时，改变 SVG 路径的颜色为蓝色 */
+}
+
+.dock {
+	display: flex;
+	width: 450px;
+	height: 60px;
+	border-top: 0.5px solid #aaa;
+	position: fixed;
+	top: 860px;
+	font-size: 10px;
+	text-align: center;
+	background-color: #e7f0fd;
+	padding: 0px 10px;
+	justify-content: space-around;
+	/* 在主轴方向上平均分配子元素之间的空间 */
+	align-items: center;
+	/* 在交叉轴方向上居中对齐子元素 */
+}
+
+.dock a {
+	color: #000;
+}
+
+.dock .icons {
+	width: 25px;
+	height: 40px;
+}
+
+.dock img {
+	width: 25px;
+	height: 25px;
+}
+
+.footer {
+    height: 20px;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1; /* 背景颜色可以根据需要更改 */
+    text-align: center; /* 水平居中 */
+	font-size: 10px;
+	line-height: 20px;
+	margin: 0 auto;
+}
+ 
+.footer p {
+    margin: 0; /* 移除段落默认的外边距 */
+}

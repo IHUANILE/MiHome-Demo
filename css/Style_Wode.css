@@ -1,0 +1,156 @@
+
+.header {
+	width: 450px;
+	height: 60px;
+	display: flex;
+	font-size: 20px;
+	margin-top: auto;
+	position: relative;
+	line-height: 60px;
+}
+
+.me {
+	width: 450px;
+	height: 100px;
+	position: relative;
+	padding: 0 30px;
+}
+
+.name {
+	font-size: 30px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.num {
+	font-size: 15px;
+	color: #777;
+	position: absolute;
+	top: 42px;
+}
+
+.zonglan {
+	width: 150px;
+	height: 25px;
+	background-color: rgba(255, 255, 255, 0.3);
+	/* 	z-index: 0; */
+	border-radius: 20px;
+	line-height: 25px;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	top: 70px;
+}
+
+.home {
+	font-size: 15px;
+	color: #777;
+}
+
+.touxiang {
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+.home_Box{
+	width: 420px;
+	height: 70px;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: 15px 15px;
+	border-radius: 15px;
+	position: relative;
+}
+.img1,.img2{
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	border-radius: 15px;
+	position: absolute;
+}
+.svg1{
+	margin-top: 4.5px;
+	margin-left: 4.5px;
+}
+.home_Name{
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.chengyuan{
+	font-size: 13px;
+	position: absolute;
+	left: 20px;
+	bottom: 15px;
+}
+.img1{
+	right: 42px;
+	top: 20px;
+}
+.img2{
+	right: 20px;
+	top: 20px;
+	border: 0.1px solid #aaa;
+}
+.swiper{
+	width: 420px;
+	height: 180px;
+	margin: 0 15px;
+	border-radius: 15px;
+	position: relative;
+}
+.swiper-slide{
+	width: 420px;
+	height: 180px;
+	border-radius: 15px;
+}
+.swiper img{
+	width: 420px;
+	height: 180px;
+	display: block;
+	border-radius: 15px;
+} 
+
+.more{
+	width: 420px;
+	height: 390px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px 20px;
+	position: relative;
+	top: 15px;
+	left: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.more .module img{
+	width: 40px;
+	height: 40px;
+}
+.more .module svg{
+	position: absolute;
+	right: 20px;
+	margin: 10px 0px;
+	fill: #999;
+}
+.more .module .title{
+	height: 20px;
+	margin: 10px 20px;
+}
+.more .module .title1{
+	height: 20px;
+	margin-top: 10px;
+	position: absolute;
+	right: 50px;
+	color: #999;
+}
+.module{
+	height: 40px;
+	display: flex;
+}

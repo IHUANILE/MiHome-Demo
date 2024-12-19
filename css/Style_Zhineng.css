@@ -1,0 +1,169 @@
+.tab {
+	width: 450px;
+	height: 70px;
+	display: flex;
+	font-size: 25px;
+
+}
+
+.tansuo {
+	margin-left: 30px;
+	margin-right: -10px;
+	height: 70px;
+	width: 50px;
+	margin-top: auto;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+.wodezhineng {
+	margin-left: 30px;
+	height: 70px;
+	width: 100px;
+	margin-top: auto;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+.tab a {
+	color: #999;
+}
+
+.swiper {
+	width: 410px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+}
+
+.swiper-slide {
+	width: 410px;
+	height: 200px;
+	background-color: #fff;
+	border-radius: 25px;
+}
+
+.text {
+	font-size: 15px;
+	color: #67adfb;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+
+}
+
+.text1 {
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	left: 30px;
+	top: 45px;
+}
+
+
+.icon_Zhineng {
+	width: 220px;
+	height: 40px;
+	left: 30px;
+	bottom: 20px;
+	position: absolute;
+}
+
+.icon_Zhineng1 {
+	top: 5px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+.icon_Zhineng2 {
+	position: absolute;
+	top: 15px;
+	left: 50px;
+}
+
+.icon_Zhineng3 {
+	top: 5px;
+	left: 80px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+.icon_Zhineng4 {
+	top: 10px;
+	left: 130px;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+}
+
+.text3 {
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+	background-color: #f4f9ff;
+	color: #3c96fa;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0 auto;
+}
+
+.title {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.devicebox {
+	width: 410px;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 20px;
+}
+
+.device1 {
+	width: 197px;
+	height: 100px;
+	background-color: #fff;
+	margin-right: 15px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+	position: relative;
+}
+
+.device2 {
+	width: 197px;
+	height: 100px;
+	background-color: #fff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+	position: relative;
+}
+
+.images {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 10px;
+}
+
+.device_title1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.device_title2 {
+	font-size: 13px;
+	color: #999;
+}
+
+span {
+	color: #32bac0;
+}

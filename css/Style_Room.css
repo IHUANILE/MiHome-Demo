@@ -1,0 +1,116 @@
+
+.temperature {
+	width: 425px;
+	height: 50px;
+	/* border-bottom: 1px solid #aaa; */
+	display: flex;
+	/* position: absolute; */
+	padding: 7.5px 5px 7.5px 5px;
+	font-weight: bold;
+}
+
+.temperature img {
+	width: 25px;
+	height: 25px;
+}
+
+.wenshidu {
+	font-size: 15px;
+	margin-top: auto;
+	line-height: 25px;
+}
+
+.wendu,
+.shidu {
+	width: 65px;
+	height: 35px;
+	display: flex;
+	background-color: rgba(204, 223, 247, 0.8);
+	border-radius: 30px;
+	padding: 5px 5px 5px 6px;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.pt {
+	font-size: 7px;
+	margin-top: 10px;
+}
+
+.scenario {
+	display: flex;
+	width: 430px;
+	height: 130px;
+	flex-wrap: wrap;
+}
+
+.scenario img {
+	width: 25px;
+	height: 25px;
+	margin: 12px 25px;
+}
+
+.huijia,
+.lijia,
+.zaoan,
+.wanan {
+	width: 200px;
+	height: 50px;
+	display: flex;
+	margin: 5px 5px 10px 10px;
+	border-radius: 15px;
+	background-color: #fff;
+	font-weight:bold;
+}
+
+.changjing {
+	margin-top: auto;
+	line-height: 50px;
+}
+
+
+.images {
+	width: 30px;
+	height: 30px;
+}
+
+.sound,
+.bingxiang,
+.jiankong {
+	width: 20px;
+	height: 30px;
+}
+
+.TV,
+.touyingyi {
+	width: 45px;
+	height: 30px;
+}
+
+.jiqiren,
+.huanxingdeng {
+	width: 40px;
+	height: 30px;
+}
+
+.kongtiao {
+	width: 40px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.jiashiqi {
+	width: 20px;
+	height: 30px;
+}
+
+.xiyiji,
+.dianshuihu,
+.mensuo,
+.jiankong,
+.jinghuaqi,
+.chuanganqi,
+.dianshuihu {
+	width: 25px;
+	height: 30px;
+}

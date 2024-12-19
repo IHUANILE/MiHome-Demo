@@ -1,0 +1,162 @@
+.search {
+	width: 410px;
+	height: 50px;
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	border-radius: 25px;
+	margin: 0px 20px;
+
+}
+
+.search img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 20px;
+	top: 15px;
+}
+
+.stext {
+	position: absolute;
+	left: 60px;
+	font-size: 20px;
+	line-height: 50px;
+	color: #aaa;
+}
+
+.banner {
+	width: 410px;
+	height: 200px;
+	margin: 20px 20px;
+	border-radius: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.banner img {
+	width: 410px;
+	height: 200px;
+	border-radius: 25px;
+}
+
+.banner div {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.xiaomisu7 {
+	font-size: 30px;
+	font-weight: bold;
+	top: 15px;
+	left: 30px;
+}
+
+.renche {
+	font-size: 15px;
+	font-weight: Medium;
+	top: 55px;
+	left: 30px;
+}
+
+.new {
+	width: 410px;
+	height: 490px;
+	background-color: #fff;
+	border-radius: 25px;
+	margin: 0px 20px;
+	position: relative;
+	/* 	display: flex;
+	flex-wrap: wrap; */
+}
+
+.new img {
+	width: 40px;
+	height: 40px;
+	margin: 15px 15px;
+}
+
+.title {
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.No1 {
+	width: 350px;
+	height: 70px;
+	position: relative;
+	top: 90px;
+	left: 30px;
+	display: flex;
+	/* 	border: 1px solid black; */
+}
+
+.No2 {
+	width: 350px;
+	height: 70px;
+	position: relative;
+	top: 120px;
+	left: 30px;
+	display: flex;
+	/* 	border: 1px solid black; */
+}
+
+.No3 {
+	width: 350px;
+	height: 70px;
+	position: relative;
+	top: 150px;
+	left: 30px;
+	display: flex;
+	/* 	border: 1px solid black; */
+}
+
+.im1,
+.im2,
+.im3 {
+	width: 70px;
+	height: 70px;
+	background-color: #eee;
+	margin: 0px 10px;
+	border-radius: 5px;
+}
+
+.mingcheng {
+	width: 260px;
+	position: absolute;
+	left: 100px;
+	top: 10px;
+	font-size: 18px;
+}
+
+.jianjie {
+	width: 260px;
+	position: absolute;
+	bottom: 10px;
+	left: 100px;
+	/* top: 40px; */
+	font-size: 13px;
+	color: #aaa;
+}
+
+.bt {
+	width: 350px;
+	height: 50px;
+	position: relative;
+	top: 190px;
+	left: 30px;
+	background-color: #eee;
+	border-radius: 25px;
+}
+
+.bttext {
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}
